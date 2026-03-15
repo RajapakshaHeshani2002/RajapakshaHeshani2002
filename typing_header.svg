@@ -1,0 +1,30 @@
+<svg width="750" height="65" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8fab"/><stop offset="50%" style="stop-color:#ffb3c6"/><stop offset="100%" style="stop-color:#e0aaff"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c77dff"/><stop offset="50%" style="stop-color:#e0aaff"/><stop offset="100%" style="stop-color:#ffb3c6"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b9d"/><stop offset="50%" style="stop-color:#ff8fab"/><stop offset="100%" style="stop-color:#e0aaff"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a8e6cf"/><stop offset="50%" style="stop-color:#c77dff"/><stop offset="100%" style="stop-color:#ffb3c6"/>
+    </linearGradient>
+    <style>
+      .l1{animation:fs 8s ease-in-out infinite 0s;opacity:0;}
+      .l2{animation:fs 8s ease-in-out infinite 2s;opacity:0;}
+      .l3{animation:fs 8s ease-in-out infinite 4s;opacity:0;}
+      .l4{animation:fs 8s ease-in-out infinite 6s;opacity:0;}
+      @keyframes fs{0%{opacity:0;transform:translateY(10px);}10%{opacity:1;transform:translateY(0);}25%{opacity:1;transform:translateY(0);}35%{opacity:0;transform:translateY(-10px);}100%{opacity:0;}}
+    </style>
+  </defs>
+  <rect x="370" y="15" width="3" height="30" fill="#ffb3c6" rx="1">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text class="l1" x="375" y="40" text-anchor="middle" font-family="Fira Code,monospace" font-size="20" font-weight="700" fill="url(#g1)">👩‍💻 Software Engineering Student</text>
+  <text class="l2" x="375" y="40" text-anchor="middle" font-family="Fira Code,monospace" font-size="20" font-weight="700" fill="url(#g2)">🌐 Full Stack Web Developer</text>
+  <text class="l3" x="375" y="40" text-anchor="middle" font-family="Fira Code,monospace" font-size="20" font-weight="700" fill="url(#g3)">🤖 AI for Social Impact</text>
+  <text class="l4" x="375" y="40" text-anchor="middle" font-family="Fira Code,monospace" font-size="20" font-weight="700" fill="url(#g4)">🚀 Always Learning · Always Building</text>
+</svg>

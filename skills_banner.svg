@@ -1,0 +1,67 @@
+<svg width="840" height="130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .chip{animation:popIn 0.5s ease-out both;}
+      .c1{animation-delay:0.05s;}.c2{animation-delay:0.15s;}.c3{animation-delay:0.25s;}
+      .c4{animation-delay:0.35s;}.c5{animation-delay:0.45s;}.c6{animation-delay:0.55s;}.c7{animation-delay:0.65s;}
+      @keyframes popIn{from{opacity:0;transform:scale(0.6) translateY(15px);}to{opacity:1;transform:scale(1) translateY(0);}}
+    </style>
+  </defs>
+  <text x="420" y="18" text-anchor="middle" font-family="Courier New,monospace" font-size="10" fill="#c77dff" letter-spacing="3">✿  PROGRAMMING LANGUAGES  ✿</text>
+  <!-- HTML -->
+  <g class="chip c1">
+    <rect x="8" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#ff8fab" stroke-width="1.5"/>
+    <rect x="8" y="26" width="106" height="6" rx="4" fill="#ff8fab" opacity="0.8"/>
+    <text x="61" y="65" text-anchor="middle" font-size="26">🌐</text>
+    <text x="61" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ffb3c6">HTML5</text>
+    <rect x="8" y="111" width="106" height="4" rx="2" fill="#ff8fab" opacity="0.3"/>
+  </g>
+  <!-- CSS -->
+  <g class="chip c2">
+    <rect x="124" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#e0aaff" stroke-width="1.5"/>
+    <rect x="124" y="26" width="106" height="6" rx="4" fill="#e0aaff" opacity="0.8"/>
+    <text x="177" y="65" text-anchor="middle" font-size="26">🎨</text>
+    <text x="177" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#e0aaff">CSS3</text>
+    <rect x="124" y="111" width="106" height="4" rx="2" fill="#e0aaff" opacity="0.3"/>
+  </g>
+  <!-- JS -->
+  <g class="chip c3">
+    <rect x="240" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#ffd6e7" stroke-width="1.5"/>
+    <rect x="240" y="26" width="106" height="6" rx="4" fill="#ffd6e7" opacity="0.8"/>
+    <text x="293" y="65" text-anchor="middle" font-size="26">⚡</text>
+    <text x="293" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ffd6e7">JavaScript</text>
+    <rect x="240" y="111" width="106" height="4" rx="2" fill="#ffd6e7" opacity="0.3"/>
+  </g>
+  <!-- Python -->
+  <g class="chip c4">
+    <rect x="356" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#c77dff" stroke-width="1.5"/>
+    <rect x="356" y="26" width="106" height="6" rx="4" fill="#c77dff" opacity="0.8"/>
+    <text x="409" y="65" text-anchor="middle" font-size="26">🐍</text>
+    <text x="409" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#d8b4fe">Python</text>
+    <rect x="356" y="111" width="106" height="4" rx="2" fill="#c77dff" opacity="0.3"/>
+  </g>
+  <!-- PHP -->
+  <g class="chip c5">
+    <rect x="472" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#ff6b9d" stroke-width="1.5"/>
+    <rect x="472" y="26" width="106" height="6" rx="4" fill="#ff6b9d" opacity="0.8"/>
+    <text x="525" y="65" text-anchor="middle" font-size="26">🐘</text>
+    <text x="525" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ffa8c5">PHP</text>
+    <rect x="472" y="111" width="106" height="4" rx="2" fill="#ff6b9d" opacity="0.3"/>
+  </g>
+  <!-- Java -->
+  <g class="chip c6">
+    <rect x="588" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#ffb3c6" stroke-width="1.5"/>
+    <rect x="588" y="26" width="106" height="6" rx="4" fill="#ffb3c6" opacity="0.8"/>
+    <text x="641" y="65" text-anchor="middle" font-size="26">☕</text>
+    <text x="641" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ffccd5">Java</text>
+    <rect x="588" y="111" width="106" height="4" rx="2" fill="#ffb3c6" opacity="0.3"/>
+  </g>
+  <!-- C# -->
+  <g class="chip c7">
+    <rect x="704" y="26" width="106" height="92" rx="14" fill="#1a0020" stroke="#a8e6cf" stroke-width="1.5"/>
+    <rect x="704" y="26" width="106" height="6" rx="4" fill="#a8e6cf" opacity="0.8"/>
+    <text x="757" y="65" text-anchor="middle" font-size="26">🔷</text>
+    <text x="757" y="88" text-anchor="middle" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#a8e6cf">C#</text>
+    <rect x="704" y="111" width="106" height="4" rx="2" fill="#a8e6cf" opacity="0.3"/>
+  </g>
+</svg>
